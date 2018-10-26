@@ -1,0 +1,22 @@
+{
+  "name": "Alexa skill proxy",
+  "description": "App used to validate and proxy Amazon Alexa skill calls",
+  "repository": "https://github.com/anandkumarpatel/alexa-skill-proxy",
+  "keywords": [
+    "alexa-validation",
+    "alexa",
+    "aws",
+    "express",
+    "node"
+  ],
+  "env": {
+    "ENDPOINT": {
+      "description": "URL to proxy valided Alexa calls to.",
+      "value": ""
+    },
+    "ORIGIN": {
+      "description": "(optional) Specify request origin for CORS",
+      "value": "*"
+    }
+  }
+}
