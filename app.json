@@ -9,6 +9,10 @@
     "express",
     "node"
   ],
+  "version": "0.0.1",
+  "engines": {
+    "node": "8.9.4"
+  },
   "env": {
     "ENDPOINT": {
       "description": "URL to proxy valided Alexa calls to.",

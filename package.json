@@ -1,0 +1,33 @@
+{
+  "name": "alexa-skill-proxy",
+  "version": "1.0.0",
+  "description": "App used to validate and proxy Amazon Alexa skill calls",
+  "main": "main.js",
+  "dependencies": {
+    "alexa-verifier-middleware": "^1.0.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandkumarpatel/alexa-skill-proxy.git"
+  },
+  "keywords": [
+    "alexa",
+    "alexa",
+    "proxy",
+    "alexa",
+    "validation"
+  ],
+  "author": "anandkumarpatel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anandkumarpatel/alexa-skill-proxy/issues"
+  },
+  "homepage": "https://github.com/anandkumarpatel/alexa-skill-proxy#readme"
+}
